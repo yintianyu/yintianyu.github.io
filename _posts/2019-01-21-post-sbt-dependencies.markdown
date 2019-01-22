@@ -4,7 +4,8 @@ title: "Sbt 依赖配置"
 date: 2019-01-21 17:57:57 +0800
 author: "尹天宇"
 tags:
-    - example
+    - Scala
+    - sbt
 ---
 
 
@@ -13,7 +14,7 @@ tags:
 ## 前言
 相信大家在使用chisel项目的时候都有遇到过**库依赖**的问题，比如从[rocket-chip](https://github.com/freechipsproject/rocket-chip)中clone下来的项目在import到IntelliJ Idea的过程中会出现
 
-![](/img/post-sbt-error.png)
+![](/img/blog-sbt-error.png)
 
 这种错误。这其实就是由于在sbt构建项目的过程中找不到chisel3这个库（你在写代码的时候会`import chisel3`)。
 
