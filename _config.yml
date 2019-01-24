@@ -1,7 +1,7 @@
 # Site settings
 title: Yin Tianyu's Blog
 SEOTitle: 尹天宇的博客 | Jack's Blog
-header-img: img/home-bg.jpg
+header-img: img/yintianyu/home-bg.jpg
 email: yinty11122@gmail.com
 description: "尹天宇的博客，在这里与你分享计算机/互联网技术"
 keyword: "尹天宇, Jack Yin, 博客, 个人网站, 互联网"
@@ -16,7 +16,7 @@ RSS: false
 weibo_username:     2214514502
 zhihu_username:     yin-tian-yu-34
 github_username:    yintianyu
-twitter_username:   yintianyu
+twitter_username:   ytyhero007
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -106,34 +106,10 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "spikexin的二三思考",
+        href: "http://www.spikexin.com"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        title: "灿灿小清新的微博",
+        href: "https://weibo.com/u/5327198261"
     }
 ]
