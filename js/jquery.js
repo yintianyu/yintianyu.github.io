@@ -9203,3 +9203,17 @@ if ( typeof noGlobal === strundefined ) {
 return jQuery;
 
 }));
+
+// var aTagArr = [].slice.apply(document.getElementsByTagName("a"));
+
+// aTagArr.forEach(function (e, i) {
+//   e.href.indexOf("_blank") > -1 ? e.target = "_blank" : null;
+// });
+// <script type="text/javascript">
+// 	$(document).ready(function() {
+// 	    //为超链接加上target='_blank'属性
+// 		$('a[href^="http"]').each(function() {
+// 			$(this).attr('target', '_blank');
+// 		});
+// 	});
+// </script>
