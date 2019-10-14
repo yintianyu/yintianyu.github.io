@@ -21,7 +21,7 @@ tags:
 目前riscv-glibc支持的版本有2.26, 2.27和2.29三种，而riscv-gnu-toolchain中包含的glibc在2018年8月以前的版本为2.26，在2018年8月以后的版本为2.29，无官方2.27版本的支持。
 
 为了在clone最新的[riscv-gnu-toolchain](https://github.com/riscv/riscv-gnu-toolchain)代码（及其子模块）后，进入`riscv-glibc`目录，手动输入`git checkout riscv-glibc-2.27`切换到2.27版本。
-然后修改`riscv/glibc/sysdeps/unix/sysv/linux/riscv/flush-icache.c`，将其原有的
+然后修改`riscv-glibc/sysdeps/unix/sysv/linux/riscv/flush-icache.c`，将其原有的
 ```c
 #include <asm/syscalls.h>
 ```
